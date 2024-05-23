@@ -202,7 +202,7 @@ nav.nav-bar.active circle {
 	-webkit-transition-timing-function: cubic-bezier(.86, .01, .77, .78);
 	-moz-transition-timing-function: cubic-bezier(.86, .01, .77, .78);
 	transition-timing-function: cubic-bezier(.86, .01, .77, .78);
-	background-color: #82dade;
+	background-color: #000000;
 }
 nav.nav-bar.active .nav-menu {
 	visibility: visible;
@@ -223,6 +223,9 @@ nav.nav-bar.active .nav-menu .nav-wrapper {
 .logo-block {
     padding-left: 142px;
     display: inline-block;
+    font-weight: 800;
+    color: #ffffff;
+    padding-top: 10px;
 }
 .nav-wrapper ul.menu {
     padding: 0;
@@ -375,7 +378,7 @@ div#sidebar {
     z-index: 99999;
 }
 div#sidebar .social a {
-    background: #82dade;
+    background: #4e4e4e;
     padding: 10px 20px;
     margin: 5px 0;
     font-size: 20px;
@@ -464,7 +467,7 @@ h1.main-title:before {
     left: 0;
 }
 h1.title-gray:before {
-    background-color: #82dade;
+    background-color: #ffffff;
 }
 ul.filter-box-container.three-cols li.filter-box {
     width: 33.33%;
@@ -515,7 +518,7 @@ ul.filter-box-container.three-cols li.filter-box img {
     border-radius: 0;
 }
 .filter-tab  .nav-pills .nav-link.active, .filter-tab  .nav-pills .show>.nav-link {
-    background: #82dade;
+    background: #000000;
     color: #fff;
 }
 .tab-content {
@@ -585,7 +588,7 @@ section.canvas-image-sec {
     padding-bottom: 100px;
 }
 .bg-green {
-    background: #89dbdf;
+    background: #434343;
 }
 h1.title-white {
     color: #fff;
@@ -629,7 +632,7 @@ h1.title-white:before {
     justify-content: center;
 }
 .content-gray p a:focus, .content-gray p a:hover {
-    color: #1ebfb4;
+    color: #000000;
 }
 .content-gray p a {
     color: #4f4f4f;
@@ -646,7 +649,7 @@ section.news-detail-wrp-sec ul {
 section.news-detail-wrp-sec ul li {
     font-size: 15px;
     line-height: 25px;
-    color: #4f4f4f;
+    color: #000000;
 }
 .marketing_header {
     position: absolute;
@@ -873,7 +876,7 @@ ul#menu-production, #menu-post-production {
     box-sizing: border-box;
     bottom: 45px;
     right: 75px;
-    background: #1ebfb4;
+    background: #000000;
 }
 .quk-cntct span {
     width: 50px;
@@ -898,7 +901,7 @@ ul#menu-production, #menu-post-production {
     z-index: 1;
 }
 .quk-cntct span img {
-    background: #00c9bc;
+    background: #4b4b4b;
     padding: 10px;
     border: 2px solid transparent;
     border-radius: 50%;
@@ -979,7 +982,7 @@ ul#menu-production, #menu-post-production {
     box-sizing: border-box;
     top: 38%;
     right: 10px;
-    background: #1ebfb4;
+    background: #000000;
 }
 .enq-form.open-call {
     padding: 20px 20px 10px 20px;
@@ -1011,7 +1014,7 @@ span.wpcf7-form-control-wrap.your-project textarea.txt-areas {
     margin-top: 30px;
 }
 .video-content-wrap p a:hover {
-    color: #89dbdf;
+    color: #000000;
 }
 .video-content-wrap p a {
     color: #ffffff;
@@ -1142,7 +1145,7 @@ section.apprch-sec {
     padding: 100px 0 0 0;
 }
 h2.wht-srv-sec-title a {
-    color: #82dade;
+    color: #000000;
     font-weight: 600;
     font-size: 24px;
     margin-top: 20px;
@@ -1252,7 +1255,7 @@ a.news-post-button {
     -o-transition: all ease .5s;
 }
 a.news-post-button:hover {
-    background-color: #82dade;
+    background-color: #000000;
 }
 .title-dark-gray.title-gray {
     color: #333;
@@ -1277,7 +1280,7 @@ section.news-detail-wrp-sec h2.blog-detail-title:before {
     content: '';
     position: absolute;
     display: inline-block;
-    background-color: #82dade;
+    background-color: #000000;
     width: 50px;
     height: 5px;
     bottom: 0;
@@ -1363,7 +1366,7 @@ section.featured-film-btn-sec {
 }
 .more-3d-an a:hover {
     color: #ffffff;
-    background-color: #82dade;
+    background-color: #000000;
 }
 .main-content.content-gray.big-content p {
     color: #a6a7a9;
@@ -1413,7 +1416,7 @@ ul.pagination {
 li.page-item a {
     margin-bottom: 20px;
     display: inline-block;
-    background-color: #82dade;
+    background-color: #000000;
     color: #ffffff!important;
     text-transform: uppercase;
     font-size: 14px;
@@ -1587,8 +1590,10 @@ div#slide-wrap .content-popform h1 {
 }
 div#slide-wrap .content-popform button.close-call {
     position: absolute;
-    right: 20px;
+    left: 20px;
+    /* right: 100px; */
     top: 20px;
+    /* bottom: 0px; */
     left: auto;
     -moz-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
@@ -1598,10 +1603,10 @@ div#slide-wrap .content-popform button.close-call {
 	outline:none !important;
 }
 div#slide-wrap .content-popform button.close-call:hover {
-    color: #82dade;
+    color: #3e3e3e;
 }
 div#slide-wrap .content-popform {
-    padding: 20px;
+    padding: 50px;
     background: #fff;
     position: relative;
 }
@@ -1625,7 +1630,7 @@ div#slide-wrap .content-popform button.close-call, div#modal-subscribe .modal-co
     outline: none;
 }
 div#slide-wrap .content-popform button.close-call:hover, div#modal-subscribe .modal-content .modal-header button.close:hover {
-    color: #82dade;
+    color: #474b4c;
 }
 div#slide-wrap .content-popform input, div#slide-wrap .content-popform textarea, div#modal-subscribe .modal-content .modal-body input, div#modal-subscribe .modal-content .modal-body textarea {
     width: 100%;
@@ -1639,7 +1644,7 @@ div#slide-wrap .content-popform p, div#modal-subscribe .modal-content p  {
     margin: 0;
 }
 div#slide-wrap .content-popform form button, div#modal-subscribe .modal-content form button {
-    background: #1ebfb4;
+    background: #434343;
     border: none;
     padding: 9px 23px;
     color: #fff;
@@ -1654,7 +1659,7 @@ div#slide-wrap .content-popform form button, div#modal-subscribe .modal-content 
     transition: all 0.5s ease;
 }
 div#slide-wrap .content-popform form button:hover, div#modal-subscribe .modal-content form button:hover {
-    background: #008279;
+    background: #000000;
 }
 div#modal-subscribe .modal-content .modal-header {
     padding: 0;
@@ -1937,7 +1942,7 @@ h2.wht-srv-sec-title {
 }
 .career_frm button.career-submit {
     color: #fff;
-    background-color: #82dade;
+    background-color: #000000;
     font-size: 16px;
     border: none;
     padding: 10px 55px 10px 25px;
